@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAiD AdBlocker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            width: 250px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 36px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        .toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .toggle input {
+            transform: scale(1.2);
+        }
+        .stats {
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RAiD AdBlocker</h1>
+        <img src="icon.png" alt="RAiD Icon">
+    </div>
+    
+    <div class="toggle">
+        <label for="adblocker-toggle">Enable AdBlocker:</label>
+        <input type="checkbox" id="adblocker-toggle">
+    </div>
+    <p>Use the checkbox to turn AdBlocker on or off.</p>
+    
+    <div class="stats">
+        Ads Blocked: <span id="adsBlockedCount">0</span>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
