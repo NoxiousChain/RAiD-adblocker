@@ -14,7 +14,7 @@ RAiD AdBlocker is a simple and efficient Chrome extension that removes ads from 
 
 1. **Download the extension files** or clone this repository:
    ```bash
-   git clone https://github.com/yourusername/raid-adblocker.git
+   git clone https://github.com/NoxiousChain/raid-adblocker.git
    ```
 2. Open Chrome and go to `chrome://extensions/`
 3. Enable Developer Mode (toggle in the top-right corner)
