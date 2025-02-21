@@ -8,7 +8,7 @@ RAiD AdBlocker is a simple and efficient Chrome extension that removes ads from 
 - **Counts the number of ads blocked** and displays it in the popup
 - **Lightweight and efficient**, running seamlessly in the background
 - **Works in both Normal and Incognito mode**
-- **User-friendly toggle switch** to enable/disable ad blocking
+- **User-friendly toggle switch** to enable/disable ad-blocking
 
 ## 🔧 Installation
 
@@ -25,10 +25,10 @@ RAiD AdBlocker is a simple and efficient Chrome extension that removes ads from 
 
 1. Click on the RAiD AdBlocker extension icon in Chrome
 2. The popup will display:
-   - A toggle switch to enable/disable ad blocking
+   - A toggle switch to enable/disable ad-blocking
    - The number of ads blocked
 3. Toggle the switch to turn ad blocking on or off
-4. Reload the webpage to apply changes
+4. The webpage will reload to apply the changes
 
 ## 🔒 Enable Incognito Mode
 
@@ -42,7 +42,7 @@ To allow the extension to work in Incognito mode:
 
 - The extension scans webpages for common ad elements (e.g., ad containers, iframes, promoted content)
 - It removes ads dynamically and observes webpage changes to block newly loaded ads
-- The popup UI fetches and displays the number of ads blocked in real time
+- The popup UI fetches and displays the number of ads blocked in real-time
 
 ## 📄 File Structure
 
@@ -64,7 +64,7 @@ To allow the extension to work in Incognito mode:
 
 ## ⚠️ Disclaimer
 
-RAiD AdBlocker is an open-source project aimed at improving user experience. Use responsibly, and note that some websites may detect ad blockers.
+RAiD AdBlocker is an open-source project that aims to improve user experience. You should use it responsibly, and some websites may detect ad blockers.
 
 ## 💡 Contribution
 
